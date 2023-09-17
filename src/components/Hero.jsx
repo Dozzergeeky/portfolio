@@ -21,7 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
 
               I like to develop full-stack applications and have<br className="sm:block hidden" />
-              5 * C++ Competitive Problem Solver experience<br className="sm:block hidden" />
+              5 ⭐ C++ Competitive Problem Solver experience<br className="sm:block hidden" />
               solved 200+ Questions across all coding platforms<br className="sm:block hidden" />
               and completed 100+ Google Cloud Skill Batches <br className="sm:block hidden" />
           </p>
