@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Problem Solver",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full-Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Competitive Coder",
     icon: creator,
   },
 ];
@@ -114,9 +114,9 @@ const technologies = [
   },
 ];
 
-const experiences = [
+export const experiences = [
   {
-    title: "React.js Developer",
+    title: "Google Cloud",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",
@@ -198,25 +198,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Weather App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based weather app that allows users to search and check weather of any place using OpenWeather API providing an efficient way to check weather.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/subhajitsrimani/Weather-App/",
   },
   {
     name: "Job IT",
