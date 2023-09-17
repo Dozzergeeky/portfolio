@@ -219,46 +219,46 @@ const projects = [
     source_code_link: "https://github.com/subhajitsrimani/Weather-App/",
   },
   {
-    name: "Job IT",
+    name: "Disease Detector",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Disease Detector is a machine learning project that uses data analysis and predictive modeling to detect and diagnose diseases. It is designed for healthcare professionals and researchers who want to improve disease detection and diagnosis accuracy.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "python",
+        color: "orange-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tkinter",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Dozzergeeky/Disease-Detector",
   },
   {
-    name: "Trip Guide",
+    name: "Pocket-Aid",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The objective of the website is to tackle the current medical situation of our country by implementing newer technologics used in other places like GPS tracking of Ambulance and proper user given review system to reduce medicine delivery frauds among many other things.",
     tags: [
       {
-        name: "nextjs",
+        name: "tailwind css",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "html5",
+        color: "orange-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Dozzergeeky/Pocket-Aid",
   },
 ];
 
