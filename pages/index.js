@@ -70,7 +70,12 @@ export default function Index(props) {
 const Home = styled(PostMain, {
   alignItems: 'center',
   display: 'flex',
+  justifyContent: 'center',
   margin: '0 auto',
   flexDirection: 'column',
-  '@bp2': { width: 800 },
+  minHeight: 'calc(100vh - $navHeightMobile)',
+  '@bp2': { 
+    width: 800,
+    minHeight: 'calc(100vh - $navHeightDesktop)'
+  },
 })
