@@ -1,5 +1,5 @@
 import { Resend } from 'resend'
-const resend = new Resend(process.env.re_V632FX7v_2ozdxKnkJ8ZybGdKSnuotqMK)
+const resend = new Resend('re_amsjZDXH_JuAVSRxpZ1YmfFoe14e9aRZb')
 import EmailTemplate from '../../components/EmailTemplate'
 
 export default async function sendEmail(req, res) {
